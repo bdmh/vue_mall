@@ -1,0 +1,9 @@
+npm install vuelidate --save
+main.js
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate);
+组件中
+import { required, minLength, maxLength, sameAs } from 'vuelidate/lib/validators'
+
+修改数组，先方法才能监听到
+this.$set(this.memoshow,index,!this.memoshow[index])

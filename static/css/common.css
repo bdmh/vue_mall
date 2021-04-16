@@ -1,0 +1,61 @@
+.error {
+    display: block;
+    background-color: #fcf8e3
+}
+
+.errortip {
+    height: 20px;
+}
+
+.el_top_space {
+    margin-top: 10px;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dialog_shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.dialog-wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #ffffff;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    color: #777777;
+    padding-top: 20px;
+}
+
+.dialog-wrapper .info-wrapper {
+    min-height: 80px;
+    /* dialog随内容撑开高度 */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.dialog-wrapper .btn-wrapper {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-wrapper .btn {
+    flex: auto;
+}
